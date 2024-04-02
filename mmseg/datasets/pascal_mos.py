@@ -8,7 +8,7 @@ from .basesegdataset import BaseSegDataset
 
 
 @DATASETS.register_module()
-class PascalVOCDataset(BaseSegDataset):
+class PascalMosDataset(BaseSegDataset):
     """Pascal VOC dataset.
 
     Args:
