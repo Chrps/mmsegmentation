@@ -16,7 +16,7 @@ class PascalMosDataset(BaseSegDataset):
     """
     METAINFO = dict(
         classes=('background', 'CleanRoof', 'AffectedRoof'),
-        palette=[0, 38, 75])
+        palette=[[0, 0, 0], [128, 0, 0], [0, 128, 0]])
 
     def __init__(self,
                  ann_file,
