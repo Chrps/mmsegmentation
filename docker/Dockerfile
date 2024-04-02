@@ -28,7 +28,8 @@ RUN ["/bin/bash", "-c", "mim install mmengine"]
 RUN ["/bin/bash", "-c", "mim install mmcv==${MMCV}"]
 
 # Install MMSegmentation
-RUN echo test
+RUN echo test2
+RUN echo test3
 RUN git clone -b main https://github.com/Chrps/mmsegmentation.git /mmsegmentation
 
 WORKDIR /mmsegmentation
