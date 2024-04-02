@@ -1,11 +1,11 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import os.path as osp
 
-from .builder import DATASETS
-from .custom import CustomDataset
+from mmseg.registry import DATASETS
+from .basesegdataset import BaseSegDataset
 
 @DATASETS.register_module()
-class PascalMosDataset(CustomDataset):
+class PascalMosDataset(BaseSegDataset):
     """Pascal VOC dataset.
 
     Args:
