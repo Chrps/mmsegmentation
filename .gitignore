@@ -113,8 +113,11 @@ data
 *.pkl
 *.pkl.json
 *.log.json
-work_dirs/
 mmseg/.mim
+work_dirs/out
+*.mp4
+*.MOV
 
 # Pytorch
 *.pth
+!*iter_1000.pth
