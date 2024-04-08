@@ -120,4 +120,3 @@ work_dirs/out
 
 # Pytorch
 *.pth
-!*iter_1000.pth
